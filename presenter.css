@@ -42,7 +42,7 @@ body, html {
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 90%;
+    width: 95%;
 }
 
 .no-data h2 {
@@ -65,7 +65,7 @@ body, html {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0px;
-    gap: 8px;
+    gap: 1px;
 }
 
 .links a {
