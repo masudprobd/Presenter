@@ -52,7 +52,7 @@ body, html {
 
 .no-data {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     text-align: center;
 }
 
