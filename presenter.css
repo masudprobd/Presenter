@@ -29,12 +29,14 @@ body, html {
 }
 
 .app-data h3 {
-    font: 3.4em 'Baloo Da 2', cursive;
+    font-size: 3.4em;
+    font-family: 'Baloo Da 2', cursive;
     text-align: center;
     color: whitesmoke;
     font-weight: 800;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .no-data {
     position: absolute;
