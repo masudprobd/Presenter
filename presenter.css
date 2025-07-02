@@ -3,6 +3,8 @@ body, html {
     color: #ffffff;
     background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .head {
@@ -38,13 +40,20 @@ body, html {
 }
 
 
+.bg {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center; /* ভেতরের এলিমেন্ট সেন্টারে থাকবে */
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .no-data {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 900px;
     text-align: center;
-    width: 95%;
 }
 
 .no-data h2 {
